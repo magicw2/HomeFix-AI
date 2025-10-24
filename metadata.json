@@ -1,0 +1,5 @@
+{
+  "name": "HomeFix AI",
+  "description": "An AI-powered application that helps users diagnose and repair broken household items by analyzing a photo or video. It provides step-by-step guides, tool recommendations, and connects users with local experts.",
+  "requestFramePermissions": ["camera"]
+}
