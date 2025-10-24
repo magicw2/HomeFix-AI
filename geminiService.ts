@@ -2,13 +2,13 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import type { RepairGuide } from '../types';
 
-const API_KEY = process.env.API_KEY;
+const API_KEY = process.env.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;
 
 if (!API_KEY) {
-  throw new Error("API_KEY environment variable not set");
+  throw new Error("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");
 }
 
-const ai = new GoogleGenAI({ apiKey: API_KEY });
+const ai = new GoogleGenAI({ apiKey: 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 });
 
 const repairGuideSchema = {
   type: Type.OBJECT,
